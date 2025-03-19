@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateekguptaiiitk/nodejs-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateekguptaiiitk/nodejs-mvc/issues"
+  },
+  "homepage": "https://github.com/prateekguptaiiitk/nodejs-mvc#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
