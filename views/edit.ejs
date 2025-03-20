@@ -1,0 +1,9 @@
+<%- include('partials/header') %>
+<h1>Edit Book</h1>
+<form action="/books/<%= book._id %>?_method=PUT" method="PUT"></form>
+    <input type="text" name="title" value="<%= book.title %>" required>
+    <input type="text" name="author" value="<%= book.author %>" required>
+    <input type="number" name="publishedYear" value="<%= book.publishedYear %>" required>
+    <button type="submit">Update Book</button>
+</form>
+<%- include('partials/footer') %>

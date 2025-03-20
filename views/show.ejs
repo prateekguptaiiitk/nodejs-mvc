@@ -1,0 +1,9 @@
+<%- include('partials/header') %>
+<h1><%= book.title %></h1>
+<p>Author: <%= book.author %></p>
+<p>Published Year: <%= book.publishedYear %></p>
+<a href="/books/<%= book._id %>/edit">Edit</a>
+<form action="/books/<%= book._id %>?_method=DELETE" method="POST">
+    <button type="submit">Delete</button>
+</form>
+<%- include('partials/footer') %>
